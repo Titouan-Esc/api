@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to right top, #f24546, #aaaaaa);
+  height: 100vh;
+}
+
+.box {
+  border: 2px solid #aaaaaa;
+  height: 50%;
+  padding: 20%;
+  cursor: pointer;
+}
